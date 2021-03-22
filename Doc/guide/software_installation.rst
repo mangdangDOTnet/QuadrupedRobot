@@ -23,8 +23,9 @@ From your desktop / laptop:
 2. Download this version of Ubuntu 18.04.5 LTS 
 #################################################################
 
-Download Ubuntu server version 64bit image(NOT including desktop). Use `this version <https://drive.google.com/file/d/1dBjgWEJNBan4NsPyrdhViQJymkSypeIp/view?usp=sharing>`_ so everyone is using the same version. Unzip and extract the file. 
-You can also check the version from `ubuntu offical website<https://releases.ubuntu.com/bionic/>`_ 
+Download Ubuntu server version 64bit image(NOT including desktop). 
+Use `this version <https://drive.google.com/file/d/1XWB84zAtnzsweBcB_RmwUEkSFq5IA81g/view?usp=sharing>`_ so everyone is using the same version. Unzip and extract the file. 
+You can also check the version from `ubuntu offical website <https://releases.ubuntu.com/bionic/>`_ 
 
 3. Use `etcher <https://www.balena.io/etcher/>`_ to flash the card. 
 ##########################################################################################
@@ -46,17 +47,17 @@ You can also check the version from `ubuntu offical website<https://releases.ubu
 .. image:: ../_static/flash3.png
     :align: center
 
-Enabling Basic Functionality
+Enabling Functionality
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 1. Turn on your Raspberry Pi. 
 ###################################################################################################
-Remove SD card from computer and put it into your Raspberry Pi. 
-Connect the IO board to the Pi,
-Connect battery power from IO board power interface,
-Connect keyboard, and mouse to the Pi as well. 
-Connect the Pi to a displayer by HDMI line. 
-Switch power on/off button to set up the Pi.
+* Remove SD card from computer and put it into your Raspberry Pi. 
+* Connect the IO board to the Pi,
+* Connect battery power from IO board power interface,
+* Connect keyboard, and mouse to the Pi as well. 
+* Connect the Pi to a displayer by HDMI line. 
+* Switch power on/off button to set up the Pi.
 Follow the prompts to change the password((The default password is ``mangdang``)), and then install desktop.
 Before installation, please make sure that raspberry pi is plugged into the network cable to access the Internet. 
 After installing the desktop, you only need to reboot it one time. The system will enter the desktop system by default.
@@ -120,6 +121,7 @@ Run ``sudo bash pre_install.sh``, the pre-install time depends on your network s
 
 Insall the pupper robot program.
 	``cd QuadrupedRobot``
+	
 	``sudo bash install.sh``
 
 .. image:: ../_static/preInstall.png
